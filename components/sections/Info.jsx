@@ -17,13 +17,13 @@ export default function Info({
       : "uppercase bg-white text-primary-100 font-bold py-4 px-5 my-6";
   return (
     <Wrapper>
-      <div className="flex relative mt-24">
-        <div className="flex-grow">
+      <div className="flex relative flex-wrap xl:flex-nowrap mt-24">
+        <div className="flex-grow ">
           <Image src={img} alt="" width={784} height={479.2} />
         </div>
         <div
           style={{ backgroundColor: colors, color: textColor }}
-          className="  absolute right-0 inset-y-1/2 w-[688px] h-fit m-auto  p-10"
+          className="  w-11/12 relative  -top-10  xl:absolute  right-0 xl:inset-y-1/2 xl:w-[688px] h-fit m-auto  p-10"
         >
           <h1 className="text-1.75 leading-1.2 font-bold mb-5">{title}</h1>
           <p>{desc}</p>

@@ -12,7 +12,7 @@ export default function Discover() {
           Discover what TUM has to offer
         </h3>
         <div className="relative mt-12">
-          <div className="absolute top-8">
+          <div className="absolute top-8 hidden xl:block">
             <div className="border p-2 min-w-260.25 bg-white">
               <p className="px-5 py-3">For:</p>
               <div>
@@ -34,9 +34,9 @@ export default function Discover() {
               </button>
             </div>
           </div>
-          <div className="w-10/12 ml-auto">
+          <div className="xl:w-10/12  ml-auto">
             <div className="flex gap-14">
-              <div className="">
+              <div className="hidden xl:block">
                 <Image
                   src="/assets/images/1.webp"
                   alt=""
@@ -44,7 +44,7 @@ export default function Discover() {
                   height={434.375}
                 />
               </div>
-              <div className="flex-1 my-auto">
+              <div className="xl:flex-1 my-auto">
                 <h1 className="text-2.625 font-bold text-primary ">
                   Employees
                 </h1>

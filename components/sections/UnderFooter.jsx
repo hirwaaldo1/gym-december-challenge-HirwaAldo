@@ -6,7 +6,7 @@ export default function UnderFooter() {
     <div className="bg-[#072140] text-white py-6">
       <Wrapper>
         <div className="flex justify-between">
-          <div className="flex gap-5 my-auto">
+          <div className="flex xl:flex-nowrap flex-wrap gap-5 my-auto">
             {[
               "Jobs",
               "Feedback",
@@ -18,7 +18,13 @@ export default function UnderFooter() {
               return <p key={k}>{v}</p>;
             })}
           </div>
-          <Image src="/assets/images/22.png" alt="" width="250" height="250" />
+          <Image
+            src="/assets/images/22.png"
+            className="xl:block hidden"
+            alt=""
+            width="250"
+            height="250"
+          />
         </div>
         <div className="my-5 flex gap-5">
           <div>

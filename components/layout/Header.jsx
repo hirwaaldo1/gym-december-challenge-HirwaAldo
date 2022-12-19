@@ -27,8 +27,8 @@ export default function Header() {
               </span>
             </div>
           </div>
-          <div className="flex my-auto ">
-            <div className="flex gap-6 mr-[3.375rem] pt-[5px] ">
+          <div className=" my-auto flex  ">
+            <div className="gap-6 mr-[3.375rem] pt-[5px] hidden  xl:flex">
               {/* mt-[0.875rem] */}
               {[
                 "News and Events",

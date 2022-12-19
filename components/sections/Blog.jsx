@@ -4,8 +4,8 @@ import news from "../../data/news";
 export default function Blog() {
   return (
     <Wrapper>
-      <div className="w-1/2 m-auto mt-12 relative left-32">
-        <div className="grid grid-cols-2 gap-6">
+      <div className="sm:w-1/2 ml-auto xl:m-auto mt-12 xl:mt-12 relative xl:left-32">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {news.slice(2, 4).map((v, k) => {
             return (
               <Card

@@ -4,8 +4,8 @@ import Wrapper from "../layout/Wrapper";
 export default function Story() {
   return (
     <Wrapper>
-      <div className="flex relative mt-24">
-        <div className=" bg-[#EA7237] text-primary absolute left-0 inset-y-1/2 w-[688px] h-fit m-auto  p-10">
+      <div className="hidden sm:flex flex-col-reverse xl:flex xl:flex-nowrap flex-wrap  relative mt-24">
+        <div className=" bg-[#EA7237]  text-primary  -translate-y-10 xl:translate-y-0   xl:absolute left-0 inset-y-1/2 w-[688px] h-fit m-auto  p-10">
           <h1 className="text-1.75 leading-1.2 font-bold mb-5">
             {"Here I have met a lot of people who are breaking new ground"}
           </h1>

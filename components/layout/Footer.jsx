@@ -17,22 +17,26 @@ export default function Footer() {
               />
             </div>
             <div>
-              <p className="text-xl">
+              <p className="text-sm xl:text-xl">
                 Technical University of Munich <br /> Arcisstraße 21 <br />{" "}
                 80333 München
               </p>
-              <p className="text-xl mt-6">{"Phone: +49 (0)89-289-01"}</p>
-              <p className="text-xl ">{"Fax: +49 (0)89-289-22000"}</p>
+              <p className="text-sm xl:text-xl mt-6">
+                {"Phone: +49 (0)89-289-01"}
+              </p>
+              <p className="text-sm xl:text-xl ">
+                {"Fax: +49 (0)89-289-22000"}
+              </p>
             </div>
           </div>
           <div>
-            <p className="text-xl font-medium">
+            <p className="text-sm xl:text-xl font-medium">
               {"Let's shape the future together."}
             </p>
             <Tag value="Support us"></Tag>
           </div>
           <div>
-            <p className="text-xl font-medium">{"Latest news"}</p>
+            <p className="text-sm xl:text-xl font-medium">{"Latest news"}</p>
             <div className="flex my-2 gap-2">
               <div>
                 <Image
@@ -43,7 +47,7 @@ export default function Footer() {
                   alt=""
                 />
               </div>
-              <p className="text-xl">
+              <p className="text-sm xl:text-xl">
                 {"Germany's strongest university in business sciences"}
               </p>
             </div>
@@ -57,7 +61,7 @@ export default function Footer() {
                   alt=""
                 />
               </div>
-              <p className="text-xl">
+              <p className="text-sm xl:text-xl">
                 {"TUM partners with Nobel Sustainability Trust"}
               </p>
             </div>
@@ -71,7 +75,7 @@ export default function Footer() {
                   alt=""
                 />
               </div>
-              <p className="text-xl">
+              <p className="text-sm xl:text-xl">
                 {
                   "Antihelium nuclei as messengers from the depths of the galaxy"
                 }
@@ -80,9 +84,12 @@ export default function Footer() {
           </div>
         </div>
         <hr className="mt-12" />
-        <div className="flex mt-6 gap-12">
+        <div className="flex xl:flex-nowrap flex-wrap mt-6 gap-12">
           <div className="">
-            <p className="text-xl font-medium">
+            <p className=" text-lg xl:text-xl xl:hidden block font-medium">
+              Schools and Departments:
+            </p>
+            <p className=" text-lg xl:text-xl xl:block hidden font-medium">
               Schools <br /> and <br /> Departments:
             </p>
           </div>
@@ -101,9 +108,9 @@ export default function Footer() {
             })}
           </div>
         </div>
-        <div className="flex mt-6 gap-12">
+        <div className="flex xl:flex-nowrap flex-wrap mt-6 gap-12">
           <div className="">
-            <p className="text-xl font-medium">Quicklinks:</p>
+            <p className=" text-lg xl:text-xl font-medium">Quicklinks:</p>
           </div>
           <div className="flex gap-3 flex-wrap">
             {[

@@ -5,7 +5,7 @@ export default function News() {
   return (
     <section>
       <Wrapper>
-        <div className="grid grid-cols-2 pt-12">
+        <div className="grid sm:grid-cols-2 pt-12">
           <div className="">
             <h3 className="text-2.1 leading-1.2 font-bold">News from TUM</h3>
             <p className="text-xl text-primary mt-6">
@@ -16,7 +16,7 @@ export default function News() {
               see all
             </button>
           </div>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             {news.slice(0, 2).map((v, k) => {
               return (
                 <Card

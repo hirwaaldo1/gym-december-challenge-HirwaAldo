@@ -5,7 +5,7 @@ export default function University() {
   return (
     <Wrapper>
       <div className="mt-24">
-        <div className="grid grid-cols-3 grid-rows-2 w-full gap-x-[9rem] gap-y-[2.5rem] ">
+        <div className="grid xl:grid-cols-3 grid-rows-2 w-full gap-x-[9rem] gap-y-[2.5rem] ">
           <div className="col-span-2  row-span-2 text-primary cursor-pointer hover:text-primary-100">
             <Image
               src="/assets/images/csm_20210920_Praesident_Podcast_AH_653886_414588d4e9.webp"
@@ -26,7 +26,7 @@ export default function University() {
               All episodes
             </button>
           </div>
-          <div className="col-span-1 row-span-2  text-primary hover:text-primary-100 mt-6 cursor-pointer">
+          <div className="col-span-2 xl:col-span-1 row-span-2  text-primary hover:text-primary-100 mt-6 cursor-pointer">
             <Image
               src="/assets/images/csm_2202_OM_Campus_NeueBerufsbegleitendeZertifikatsprogrammeLLL_pexels-fauxels-3184299_c055900808.webp"
               alt=""
@@ -49,7 +49,7 @@ export default function University() {
         </div>
       </div>
       <div className="mt-12">
-        <div className="grid grid-cols-3  gap-x-[9rem] gap-y-[2.5rem] ">
+        <div className="grid xl:grid-cols-3  gap-x-[9rem] gap-y-[2.5rem] ">
           {people.map((v, k) => {
             return (
               <div
