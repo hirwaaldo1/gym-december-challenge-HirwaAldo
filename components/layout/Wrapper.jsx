@@ -1,7 +1,3 @@
 export default function Wrapper({ children }) {
-  return (
-    <div className="box-content max-w-8xl mx-auto px-5 md:px-9 xl:px-16">
-      {children}
-    </div>
-  );
+  return <div className="box-content max-w-7xl mx-auto">{children}</div>;
 }

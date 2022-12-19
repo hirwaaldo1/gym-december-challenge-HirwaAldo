@@ -1,11 +1,14 @@
 import "../styles/globals.css";
-import localFont from "@next/font/local";
-const neufileGrotesk = localFont({
-  src: "../public/assets/fonts/NeufileGrotesk-Regular.woff2",
+import { Roboto } from "@next/font/google";
+const roboto = Roboto({
+  weight: ["400", "500", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
 });
+
 export default function App({ Component, pageProps }) {
   return (
-    <main className={neufileGrotesk.className}>
+    <main className={roboto.className}>
       <Component {...pageProps} />
     </main>
   );
