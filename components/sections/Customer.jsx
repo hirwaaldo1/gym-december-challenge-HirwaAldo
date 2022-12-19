@@ -5,8 +5,8 @@ export default function Customer() {
     <Wrapper>
       <div className="mt-24">
         <h2 className="text-2.1 font-bold text-primary">TUM in numbers</h2>
-        <div className="grid grid-cols-6 lx:grid-cols-5 grid-rows-2 gap-6 w-full text-white mt-12">
-          <div className="col-span-2 xl:col-span-3 xl:row-span-2 bg-primary-100 p-5 xl:p-10">
+        <div className="grid sm:grid-cols-6 lx:grid-cols-5 grid-rows-2 gap-6 w-full text-white mt-12">
+          <div className="col-span-2 xl:col-span-4 xl:row-span-2 bg-primary-100 p-5 xl:p-10">
             <h1 className="text-5xl xl:text-8.125  leading-0.76 font-bold">
               50,000
             </h1>

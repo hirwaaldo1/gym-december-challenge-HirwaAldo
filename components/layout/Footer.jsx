@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#0A2D57] py-12 text-white ">
       <Wrapper>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-3">
           <div className="flex gap-6">
             <div className="">
               <Image
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <p className="text-sm xl:text-xl font-medium">
+            <p className="text-sm my-5 sm:my-0 xl:text-xl font-medium">
               {"Let's shape the future together."}
             </p>
             <Tag value="Support us"></Tag>
