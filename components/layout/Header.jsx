@@ -42,7 +42,7 @@ export default function Header() {
                 return (
                   <Link
                     key={k}
-                    href="/"
+                    href={`/other/${v}`}
                     className="uppercase text-[0.875rem]  py-6  font-bold leading-[1.1428571429] border-b-4 border-b-primary  hover:border-b-white h-full cursor-pointer "
                   >
                     {v}
