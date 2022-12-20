@@ -1,6 +1,6 @@
 # GYM December Challenge
 
-[Hosted Link](https://GYMDecemberChallenge.netlify.app/)
+[Hosted Link](https://coruscating-speculoos-ef94c9.netlify.app/)
 
 ## About
 
